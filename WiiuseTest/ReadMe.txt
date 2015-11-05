@@ -38,3 +38,5 @@ AppWizard uses "TODO:" comments to indicate parts of the source code you
 should add to or customize.
 
 /////////////////////////////////////////////////////////////////////////////
+Changes to the source taged with // mspe
+For balance board issue see https://github.com/rpavlik/wiiuse/issues/42
