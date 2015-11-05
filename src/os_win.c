@@ -112,6 +112,10 @@ int wiiuse_os_find(struct wiimote_t** wm, int max_wiimotes, int timeout) {
 		i = HidD_GetAttributes(dev, &attr);
 
 		if ((attr.VendorID == WM_VENDOR_ID) && (attr.ProductID == WM_PRODUCT_ID)) {
+			// mspe
+			WIIUSE_INFO("ToDo: Make this printout un-necessary!!!: Wiimote Found!\n");
+			printf("ToDo: Make this printout un-necessary!!!: Wiimote Found!\n");
+
 			/* this is a wiimote */
 			wm[found]->dev_handle = dev;
 
